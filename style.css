@@ -1,0 +1,163 @@
+header {
+    background: #7acb77;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.subtitle {
+    font-size: 18px;   
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f7f8fa;
+    color: #444;
+}
+
+h1, h2 {
+    margin:0;
+}
+p {
+    margin: 10px ;
+}
+
+
+
+nav {
+    background: #ffffff;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #444;
+    font-weight: bold;
+    
+}
+
+nav a:hover {
+    color: #2d8a2d;
+}
+
+nav .active {
+    color: #2d8a2d;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+.menu-section {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.menu-section h2 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.main-list > li {
+    background: #ffffff;
+    padding: 15px;
+    margin-bottom: 12px;
+    list-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    transition: 0.3s;
+}
+
+.main-list > li:hover {
+    background: #e6ffe6;
+    transform: scale(1.02);
+}
+
+.nested-list {
+    margin-top: 10px;
+    padding-left: 25px;
+}
+
+.nested-list li {
+    padding: 6px 0;
+    color: #555;
+    transition: 0.2s;
+}
+
+.nested-list li:hover {
+    color: #2d8a2d;
+    font-weight: bold;
+}
+
+/* 
+   About Section
+ */
+.about-section {
+    width: 70%;
+    margin: 40px auto;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+/* 
+   Contact Section
+ */
+.contact-section {
+    width: 70%;
+    margin: 40px auto;
+    font-size: 18px;
+}
+
+.contact-section form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section input,
+.contact-section textarea {
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #bbb;
+    font-size: 16px;
+}
+
+.contact-section textarea {
+   
+    min-height: 100px;
+}
+
+.contact-section button {
+    padding: 12px;
+    background: #7acb77;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
+.contact-section button:hover {
+    background: #5daa59;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #7acb77;
+    color: white;
+    margin-top: 130px;
+}
+
